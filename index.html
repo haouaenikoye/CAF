@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("_f2iG0yWBfV7LtD0s");
+   })();
+</script>
+    <title>Concours culinaire</title>
+<body>
+<header>
+    <a href="#" class="logo"><span>U.</span>A.M</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+        <li><a href="#temoignage" onclick="toggleMenu();">Temoignages</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <a href="#contact" class="btn-reserve"onclick="toggleMenu();">Reservation</a>
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>Concours culinaire de l'U.A.M</h2>
+        <p>Les cuisines d’Afrique regorgent de trésors.  Quoi de mieux qu’un challenge pour les faire (re)découvrir au grand jour et s’amuser à explorer leurs utilisations ?</p>
+        <a href="#" class="btn1">Notre Menu</a>
+        <a href="#" class="btn2">Reservation</a>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+            <p>Les journées du 12  Avril de chaque année ont été marquées par le concours culinaire de mets traditionnels africains, à l'Université Abdou Moumouni de Niamey, avec la participation de plusieurs équipes de femmes. <br> <br>
+
+                Organisé autour du thème de la paix et de la cohésion sociale, le concours culinaire a permis à certaines équipes concurrentes de constituer des groupes composés de femmes de chaque facultés,  pour ainsi montrer selon elles « le vivre ensemble ». <br>
+                Les équipes avaient à préparer un met imposé, issu de nos régions <b>"sauce traditionnelle"</b>. <br> Celles-ci ont rivalisé de leur savoir-faire dans l’art culinaire pour proposer au jury des plats appréciés dans une ambiance de gaieté.
+            </p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="./images/plat3.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="menu" id="menu">
+    <div class="titre">
+        <h2 class="titre-texte"><span>M</span>enu</h2>
+        <p>La cuisine africaine regorge de plats savoureux et authentiques, riches en saveurs et en épices. Pour impressionner vos convives, pourquoi ne pas leur proposer des recettes typiques? Ces mets leur offriront une expérience culinaire inoubliable. </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Pate de mil accompagné de sauce d'épinards </h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Sauce de boeuf</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c3.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Dambou</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c4.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Kopto</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c5.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3> Sauce Foku</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c6.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Sauce Gombo</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c7.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Mechoui Targui</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c8.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Sauce Gombo</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="titre">
+    <a href="#" class="btn1">Voir Plus</a>
+ </div>
+</section>
+<section class="expert" id="expert">
+    <div class="titre">
+        <h2 class="titre-texte">Nos <span>E</span>xpertes</h2>
+        <p>
+            C’est incontestablement connu de tous. L’Afrique berceau de l'humanité est également un vaste continent aux cultures, décors et influences multiples. Et qui dit variété de cultures dit variétés de saveurs grâce à ses multiples plats différents les uns des autres. La cuisine africaine est rassembleuse, riche et diversifiée avec des plats savoureux et gourmands.</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Rabi Boubacar  Souleymane</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Nadia Amadou</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe3.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Kadiatou Idani</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe4.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Mariama Chitou</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+</section>
+ <section class="temoignage" id="temoignage">
+    <div class="titre blanc">
+        <h2 class="titre-texte">Que Disent Nos <span>P</span>articipantes</h2>
+        <p style="color:black;"> <h5>Faites un voyage culinaire sans bouger de votre cuisine, avec ces recettes africaines à découvrir!.</h5>  </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t1.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>« La cuisine est pour moi un métier d’amour, il faut aimer faire plaisir. Le but premier de notre métier est de donner des sensations gustatives et visuelles à nos résidents. J’aime particulièrement travailler les pâtes. J’apprécie également faire de la pâtisserie, je fais de la cuisine traditionnelle africaine mais j’aime aussi découvrir de nouvelles recettes du monde. ».</p>
+                <h3>Rabi Boubacar Boubacar Souleymane</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t2.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>"Cuisiner suppose une tête légère, un esprit généreux et un coeur large" <br>. OK, je suis d’accord ! Enfin… "La tête légère” peut être… mais pas pour toutes les recettes !
+
+                    La cuisine nigérienne reflète de nombreuses cuisines traditionnelles africaines, et si une quantité importante d’épices est utilisée dans les plats, le piment, lui, est quasiment inexistant.</p>
+                <h3>Mariama Chitou</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t3.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>" En cuisine ce qu'il y a de meilleur, c'est souvent le mariage de saveurs. Quand les produits typiques d'un endroit sont cuisinés à la façon d'un autre endroit, quand les goûts et les coutumes gastronomiques d'une région rencontrent celles d'une autre région et que l'union fonctionne, cela produit parfois de vrais délices culinaires. </p>
+                <h3>Aichatou Afoda</h3>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="contact" id="contact">
+     <div class="titre noir">
+         <h2 class="titre-text"><span>C</span>ontact</h2>
+         <p>Je vous remercie de cette visite, et n'hésitez pas à nous faire part de vos remarques et suggestions.</p>
+     </div>
+     <div class="contactform">
+         <h3>Envoyer un message</h3>
+         <div class="inputboite">
+             <input type="text" id="fullName" placeholder=" Votre nom">
+         </div>
+         <div class="inputboite">
+            <input type="text" id="email_id" placeholder=" Votre email">
+         </div>
+
+         <div class="inputboite">
+            <textarea placeholder="Message" id="message"></textarea>
+         </div>
+         <div class="inputboite">
+             <input type="submit"  id="message" onclick="sendEmail()" value="Envoyer">
+         </div>
+     </div>
+ </section>
+ 
+ <div class="copyright">
+     <p>copyright 2023 <a href="https://www.queenenikoye.com/">Enikoye Haoua</a> Codeloccol. Tous droits reservé</p>
+ </div>
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+ <script src="index.js"></script>
+</body>
+</html>
